@@ -16,7 +16,7 @@ def how_eligible(essay):
         score += 1
     if '!' in essay:
         score += 1
-    return score
+    print score
     
 def test_how_eligible(elig):
     ''' A test function
